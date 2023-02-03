@@ -14,7 +14,7 @@ read_csv('pol_sites_data.csv') %>%
   group_by(clade) %>% 
   mutate(median_pol_len=median(length_polymorph,na.rm = TRUE)) %>% 
   ungroup() %>%  
-  ggplot(aes(reorder(clade,mean_pol_len),length_polymorph,fill=clade))+
+  ggplot(aes(reorder(clade,median_pol_len),length_polymorph,fill=clade))+
   geom_boxplot(width=0.5,col='black',size=0.8)+
   scale_fill_manual(values=c( '#f28026','#76B7B2','#EDC948','#4E79A7'))+
   coord_flip()+
