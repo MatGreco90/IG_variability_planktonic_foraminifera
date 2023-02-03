@@ -2,6 +2,6 @@
 This repo contains the R scripts used to run the analysis and figures presented in the manuscript "Macroevolutionary patterns in intragenomic rDNA variability among planktonic foraminifera" published on *PeerJ*. 
 The datasets and phylogenetic trees needed for running the scripts are available on figshare (10.6084/m9.figshare.21316374). All the analyses were carried out in R v4.1.1.
 
-##About the manuscript
+## About the manuscript
 Ribosomal intragenomic variability in prokaryotes and eukaryotes is a genomic feature commonly studied for its inflationary impact on molecular diversity assessments. However, the evolutionary mechanisms and distribution of this phenomenon within a microbial group are rarely explored. Here, we investigate the intragenomic variability in 33 species of planktonic foraminifera, calcifying marine protists, by inspecting 2,403 partial SSU sequences obtained from single-cell clone libraries. Our analyses show that polymorphisms are common among planktonic foraminifera species, but the number of polymorphic sites significantly differs among clades. With our molecular simulations, we could assess that most of these mutations are located in paired regions that do not affect the secondary structure of the SSU fragment. Finally, by mapping the number of polymorphic sites on the phylogeny of the clades, we were able to discuss the evolution and potential sources of intragenomic variability in planktonic foraminifera, linking this trait to the distinctive nuclear and genomic dynamics of this microbial group.
 
